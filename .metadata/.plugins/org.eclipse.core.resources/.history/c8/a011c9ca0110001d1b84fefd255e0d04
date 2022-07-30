@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class SystemAndScannerClass {
+	//Instance variable
+	
+
+	public static void main(String[] args) {
+
+		System.out.println("Hello Java world");
+		
+		
+		int value;//Local variable
+		System.out.println("Enter a value?");
+		Scanner sc = new Scanner(System.in);
+		value = sc.nextInt();
+		System.out.println("Value is,value");
+		
+		
+
+	}
+
+}
